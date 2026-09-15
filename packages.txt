@@ -1,0 +1,3 @@
+apt install matplotlib.pyplot
+apt install numpy
+

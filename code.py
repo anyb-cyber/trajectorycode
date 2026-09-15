@@ -15,7 +15,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h1 class='main-title'>Let's Map Projectiles!!!</h1>", unsafe_allow_html=True)
-st.markdown("<p class='sub-title'>Simulation of Projectile Movement</p>", unsafe_allow_html=True)
+st.markdown("<p class='sub-title'>Simulation of shooting an arrow</p>", unsafe_allow_html=True)
 
 ctrl_col1, ctrl_col2, ctrl_col3, ctrl_col4, ctrl_col5 = st.columns([1.5, 1.5, 1.5, 2, 2])
 
