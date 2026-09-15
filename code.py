@@ -8,7 +8,7 @@ st.set_page_config(page_title="Let's Map Projectiles!!!", layout="wide")
 st.markdown("""
     <style>
     .stApp { background-color: #f4f6f9; }
-    .main-title { color: #1a365d; text-align: center; font-family: 'Times New Roman', sans-serif; font-weight: bold; margin-bottom: 0px; }
+    .main-title { color: #1a365d; text-align: center; font-family: 'Times New Roman'; font-weight: bold; margin-bottom: 0px; }
     .sub-title { color: #4a5568; text-align: center; margin-bottom: 20px; }
     div[data-testid="stMetricValue"] { font-size: 20px; font-weight: bold; color: #2b6cb0; }
     </style>
@@ -63,10 +63,10 @@ max_f = len(data) - 1
 btn_col1, btn_col2, slider_col = st.columns([1, 1, 5])
 
 with btn_col1:
-    if st.button("Start", use_container_width=True):
+    if st.button("Back to Start", use_container_width=True):
         st.session_state['frame_slider'] = 0
 with btn_col2:
-    if st.button("End", use_container_width=True):
+    if st.button("Launch", use_container_width=True):
         st.session_state['frame_slider'] = max_f
 
 with slider_col:
